@@ -19,7 +19,7 @@ def frenchToEnglish():
 
 @app.route("/")
 def renderIndexPage():
-    template_path = os.path.join(os.path.dirname(__file__), 'templates/index.html')
+    template_path = os.path.join(os.path.dirname(__file__), 'index.html')
     return render_template(template_path)
 
 if __name__ == "__main__":
